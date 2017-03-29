@@ -29,7 +29,7 @@ __pycache__
 # For group efforts, comment out some or all of these.
 server/conf/settings.py
 server/logs/*.log.*
-# web/static/*
+web/static/*
 web/media/*
 
 # Installer logs
