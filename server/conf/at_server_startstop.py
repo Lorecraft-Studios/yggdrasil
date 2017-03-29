@@ -45,9 +45,9 @@ def at_server_reload_stop():
     """
     This is called only time the server stops before a reload.
     """
-    print "ZOMG TESTING @RELOAD GIT PULLZOMG"
     print "Pulling from the game repository..."
-    process = subprocess.Popen("git pull", shell=True)
+    args = ["git remote add origin https://github.com/Lorecraft-Studios/yggdrasil.git", "&&", "git pull origin master"]
+    process = subprocess.Popen(args, shell=True)
     process.wait()
     pass
 
