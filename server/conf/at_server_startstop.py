@@ -45,7 +45,7 @@ def at_server_reload_stop():
     """
     This is called only time the server stops before a reload.
     """
-    print "Pulling from the game repository...ZOMG IT WERX"
+    print "Pulling from the game repository...Alrighty testing again"
     args = ["git pull origin master"]
     process = subprocess.Popen(args, shell=True)
     process.wait()
