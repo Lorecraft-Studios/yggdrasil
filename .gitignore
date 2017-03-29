@@ -19,6 +19,7 @@ lib64
 __pycache__
 
 # Other
+*.DS_Store
 *.swp
 *.log
 *.pid
